@@ -1,6 +1,6 @@
 #  Blog Sitesi Tasarlama
 Bu proje HTML ve CSS eğitimi için oluşturulmuştur.
-Projeyi incelemek için [Tıklayın](https://github.com/nefiinef)
+Projeyi incelemek için [Tıklayın](https://nefiinef.github.io/patika_hafta_2/blog-sitesi-tasarlama/)
 
 ## Özellikler
 * Sayfa yapısı için semantik HTML `<section>`, `<main>`, `<article>`
