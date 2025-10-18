@@ -1,0 +1,79 @@
+:root {
+  --primary-color: #333;
+  --secondary-color: #666;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: f4f4f4;
+  color: var(--primary-color);
+}
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+ul li {
+  display: inline-block;
+  padding-right: 15px;
+  a {
+    color: white;
+  }
+}
+header {
+  background-color: var(--primary-color);
+  text-align: center;
+  margin-bottom: 30px;
+}
+h1 {
+  color: white;
+  padding: 20px;
+}
+
+main {
+  padding-left: 20px;
+  height: 77%;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 20px;
+}
+article {
+  padding: 0px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.card {
+  background-color: white;
+  display: inline-block;
+  width: 300px;
+}
+.card-content {
+  margin: 10px auto;
+  text-align: center;
+}
+p {
+  color: var(--secondary-color);
+  margin-top: 10px;
+}
+
+footer {
+  background-color: var(--primary-color);
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+.blog-main h2 {
+  margin: 20px 0;
+}
+.blog {
+  padding: 10px;
+  margin: 40px;
+}
