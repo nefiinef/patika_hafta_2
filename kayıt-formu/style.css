@@ -29,6 +29,7 @@ form {
 }
 /* Personal Info Fieldset */
 .personal-info {
+  padding-top: 15px;
   border: none;
   display: flex;
   flex-direction: column;
@@ -83,14 +84,17 @@ select:focus {
   font-size: 20px;
   color: gray;
   margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
   border: none;
   padding: 10px;
   border-radius: 10px;
 }
 .source-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: start;
+  padding-left: 18px;
 }
 input[type="radio"],
 input[type="checkbox"] {
@@ -103,6 +107,7 @@ input[type="checkbox"] {
   justify-content: end;
   gap: 20px;
   margin-top: 30px;
+  padding-right: 20px;
 }
 #textarea {
   background-color: white;
@@ -115,6 +120,9 @@ input[type="checkbox"] {
 }
 #textarea::placeholder {
   color: rgb(235, 235, 235);
+}
+.textarea {
+  width: 100%;
 }
 /* Submit Button */
 #signup-button {
