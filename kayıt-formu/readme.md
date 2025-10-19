@@ -1,5 +1,5 @@
 # (Opsiyonel)Ödev - Kayıt Formu
-Bu proje eğitim amaçlı oluşturulmuştur.
+Bu proje eğitim amaçlı oluşturulmuştur. Projeyi incelemek için [Tıklayın](https://nefiinef.github.io/patika_hafta_2/kayıt-formu/)
 
 
 ## Özellikler
